@@ -21,7 +21,7 @@ Completed items are as follows:
 - [X] Method management (get, set and clear -- defaults to GET on clear)
 - [X] Argument management (get, set, delete, clear)
 - [X] Custom header management (get, set, delete and clear)
-- [ ] Call body management (get, set and clear)
+- [X] Request body management (get, set and clear)
 - [ ] Argument construction upon executing request
 - [ ] Header construction upon executing request
 - [ ] HTTP and HTTPS support

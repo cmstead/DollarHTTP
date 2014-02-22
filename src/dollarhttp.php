@@ -40,6 +40,10 @@ class DollarHttp{
     }
 
     /* Argument management */
+    public function getArgument($key){
+        return $this->arguments[$key];
+    }
+
     public function setArgument($key, $value){
         $this->arguments[$key] = $value;
     }
@@ -53,6 +57,10 @@ class DollarHttp{
     }
 
     /* Header management */
+    public function getHeader($key){
+        return $this->headers[$key];
+    }
+
     public function setHeader($key, $value){
         $this->headers[$key] = $value;
     }
@@ -63,6 +71,19 @@ class DollarHttp{
 
     public function clearHeaders(){
         $this->headers = array();
+    }
+
+    /* Request body management */
+    public function getBody(){
+        return $this->body;
+    }
+
+    public function setBody($body){
+        $this->body = $body;
+    }
+
+    public function clearBody(){
+        $this->body = "";
     }
 
 }
