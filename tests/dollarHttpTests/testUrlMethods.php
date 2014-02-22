@@ -7,19 +7,31 @@ class TestUrlMethods extends UnitTestCase{
 
     private $http;
 
-    function setUp(){
+    public function setUp(){
         $this->http = new DollarHttp();
     }
 
-    function testGetUrlIsCallable(){
 
-        //If the call fails, this test will fail
-        $emptyUrl = $this->http->getUrl();
+    public function testGetUrlIsCallable(){
+        $isCallable = is_callable(array($this->http, 'getUrl'));
 
-        $this->assertEqual($emptyUrl, "");
+        $this->assertTrue($isCallable);
     }
 
-    function testUrlCanBeSet(){
+    public function testDefaultUrlIsEmpty(){
+        $returnedUrl = $this->http->getUrl();
+
+        $this->assertEqual($returnedUrl, "");
+    }
+
+
+    public function testSetUrlIsCallable(){
+        $isCallable = is_callable(array($this->http, 'setUrl'));
+
+        $this->assertTrue($isCallable);
+    }
+
+    public function testUrlCanBeSet(){
         $setUrl = "http://www.gooogle.com";
         $returnedUrl = "";
 
@@ -29,7 +41,14 @@ class TestUrlMethods extends UnitTestCase{
         $this->assertEqual($returnedUrl, $setUrl);
     }
 
-    function testUrlCanBeCleared(){
+
+    public function testClearUrlIsCallable(){
+        $isCallable = is_callable(array($this->http, 'clearUrl'));
+
+        $this->assertTrue($isCallable);
+    }
+
+    public function testUrlCanBeCleared(){
         $setUrl = "http://www.google.con";
         $returnedUrl = "";
 

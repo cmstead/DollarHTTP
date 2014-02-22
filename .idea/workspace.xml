@@ -2,16 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6c98d0f-5254-4f7b-9e31-514cc8af162d" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/dollarHttpTests/dollarHttpTests.php" afterPath="$PROJECT_DIR$/tests/dollarHttpTests/dollarHttpTests.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dollarhttp.php" afterPath="$PROJECT_DIR$/src/dollarhttp.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/dollarHttpTests/testUrlMethods.php" afterPath="$PROJECT_DIR$/tests/dollarHttpTests/testUrlMethods.php" />
     </list>
     <ignored path="dollarhttp.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="f6c98d0f-5254-4f7b-9e31-514cc8af162d" time="1393101124359" ignored="false" />
     <file path="/README.md" changelist="f6c98d0f-5254-4f7b-9e31-514cc8af162d" time="1393103640063" ignored="false" />
-    <file path="/dollarhttp.php" changelist="f6c98d0f-5254-4f7b-9e31-514cc8af162d" time="1393106516982" ignored="false" />
+    <file path="/dollarhttp.php" changelist="f6c98d0f-5254-4f7b-9e31-514cc8af162d" time="1393110751287" ignored="false" />
     <file path="/dollarHttpTests.php" changelist="f6c98d0f-5254-4f7b-9e31-514cc8af162d" time="1393106423807" ignored="false" />
-    <file path="/urltests.php" changelist="f6c98d0f-5254-4f7b-9e31-514cc8af162d" time="1393107470711" ignored="false" />
+    <file path="/urltests.php" changelist="f6c98d0f-5254-4f7b-9e31-514cc8af162d" time="1393108111679" ignored="false" />
     <file path="/a.dummy" changelist="f6c98d0f-5254-4f7b-9e31-514cc8af162d" time="1393105897550" ignored="false" />
+    <file path="/testRequestMethodMethods.php" changelist="f6c98d0f-5254-4f7b-9e31-514cc8af162d" time="1393111155107" ignored="false" />
+    <file path="/testUrlMethods.php" changelist="f6c98d0f-5254-4f7b-9e31-514cc8af162d" time="1393109682106" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,26 +35,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
+      <file leaf-file-name="dollarHttpTests.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/dollarHttpTests/dollarHttpTests.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="4" selection-start="725" selection-end="725" vertical-scroll-proportion="0.0">
+            <state line="10" column="43" selection-start="315" selection-end="315" vertical-scroll-proportion="-6.25">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dollarhttp.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="dollarhttp.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/dollarhttp.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="31" selection-start="469" selection-end="469" vertical-scroll-proportion="-11.791667">
+            <state line="32" column="0" selection-start="629" selection-end="675" vertical-scroll-proportion="0.50803214">
               <folding>
                 <element signature="n#getUrl#0;n#DollarHttp#0;n#!!top" expanded="false" />
                 <element signature="n#setUrl#0;n#DollarHttp#0;n#!!top" expanded="false" />
                 <element signature="n#clearUrl#0;n#DollarHttp#0;n#!!top" expanded="false" />
-                <element signature="n#getMethod#0;n#DollarHttp#0;n#!!top" expanded="false" />
-                <element signature="n#setMethod#0;n#DollarHttp#0;n#!!top" expanded="false" />
-                <element signature="n#clearMethod#0;n#DollarHttp#0;n#!!top" expanded="false" />
+                <element signature="n#getRequestMethod#0;n#DollarHttp#0;n#!!top" expanded="false" />
+                <element signature="n#setRequestMethod#0;n#DollarHttp#0;n#!!top" expanded="false" />
+                <element signature="n#clearRequestMethod#0;n#DollarHttp#0;n#!!top" expanded="false" />
                 <element signature="n#getArgument#0;n#DollarHttp#0;n#!!top" expanded="false" />
                 <element signature="n#setArgument#0;n#DollarHttp#0;n#!!top" expanded="false" />
                 <element signature="n#deleteArgument#0;n#DollarHttp#0;n#!!top" expanded="false" />
@@ -62,15 +66,6 @@
                 <element signature="n#setBody#0;n#DollarHttp#0;n#!!top" expanded="false" />
                 <element signature="n#clearBody#0;n#DollarHttp#0;n#!!top" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dollarHttpTests.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tests/dollarHttpTests/dollarHttpTests.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="0" selection-start="7" selection-end="93" vertical-scroll-proportion="0.15060242">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -96,8 +91,9 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/tests/dollarHttpTests/urltests.php" />
         <option value="$PROJECT_DIR$/tests/dollarHttpTests/dollarHttpTests.php" />
-        <option value="$PROJECT_DIR$/tests/dollarHttpTests/testUrlMethods.php" />
         <option value="$PROJECT_DIR$/src/dollarhttp.php" />
+        <option value="$PROJECT_DIR$/tests/dollarHttpTests/testUrlMethods.php" />
+        <option value="$PROJECT_DIR$/tests/dollarHttpTests/testRequestMethodMethods.php" />
       </list>
     </option>
   </component>
@@ -222,6 +218,11 @@
       <ConfigurationWrapper RunnerId="PhpRunner" />
       <method />
     </configuration>
+    <configuration default="false" name="testRequestMethodMethods.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/tests/dollarHttpTests/testRequestMethodMethods.php">
+      <RunnerSettings RunnerId="PhpRunner" />
+      <ConfigurationWrapper RunnerId="PhpRunner" />
+      <method />
+    </configuration>
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner />
       <method />
@@ -229,14 +230,16 @@
     <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
       <method />
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="PHP Script.dollarHttpTests.php" />
       <item index="1" class="java.lang.String" itemvalue="PHP Script.testUrlMethods.php" />
+      <item index="2" class="java.lang.String" itemvalue="PHP Script.testRequestMethodMethods.php" />
     </list>
     <recent_temporary>
-      <list size="2">
+      <list size="3">
         <item index="0" class="java.lang.String" itemvalue="PHP Script.dollarHttpTests.php" />
-        <item index="1" class="java.lang.String" itemvalue="PHP Script.testUrlMethods.php" />
+        <item index="1" class="java.lang.String" itemvalue="PHP Script.testRequestMethodMethods.php" />
+        <item index="2" class="java.lang.String" itemvalue="PHP Script.testUrlMethods.php" />
       </list>
     </recent_temporary>
   </component>
@@ -335,21 +338,60 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="4" selection-start="725" selection-end="725" vertical-scroll-proportion="0.0">
+        <state line="23" column="4" selection-start="725" selection-end="725" vertical-scroll-proportion="0.66091955">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/dollarHttpTests/dollarHttpTests.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="43" selection-start="315" selection-end="315" vertical-scroll-proportion="-6.25">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/dollarHttpTests/testUrlMethods.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="4" selection-start="238" selection-end="238" vertical-scroll-proportion="0.36144578">
+          <folding>
+            <element signature="n#setUp#0;n#TestUrlMethods#0;n#!!top" expanded="false" />
+            <element signature="n#testGetUrlIsCallable#0;n#TestUrlMethods#0;n#!!top" expanded="false" />
+            <element signature="n#testDefaultUrlIsEmpty#0;n#TestUrlMethods#0;n#!!top" expanded="false" />
+            <element signature="n#testSetUrlIsCallable#0;n#TestUrlMethods#0;n#!!top" expanded="false" />
+            <element signature="n#testUrlCanBeSet#0;n#TestUrlMethods#0;n#!!top" expanded="false" />
+            <element signature="n#testClearUrlIsCallable#0;n#TestUrlMethods#0;n#!!top" expanded="false" />
+            <element signature="n#testUrlCanBeCleared#0;n#TestUrlMethods#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/dollarHttpTests/testRequestMethodMethods.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="67" column="67" selection-start="1890" selection-end="1890" vertical-scroll-proportion="0.6987952">
+          <folding>
+            <element signature="n#setUp#0;n#TestRequestMethodMethods#0;n#!!top" expanded="false" />
+            <element signature="n#testGetRequestMethodIsCallable#0;n#TestRequestMethodMethods#0;n#!!top" expanded="false" />
+            <element signature="n#testDefaultRequestMethodIsGet#0;n#TestRequestMethodMethods#0;n#!!top" expanded="false" />
+            <element signature="n#testSetRequestMethodIsCallable#0;n#TestRequestMethodMethods#0;n#!!top" expanded="false" />
+            <element signature="n#testSetRequestMethodUpdatesRequestMethod#0;n#TestRequestMethodMethods#0;n#!!top" expanded="false" />
+            <element signature="n#testSetRequestMethodTransformsStringToUpperCase#0;n#TestRequestMethodMethods#0;n#!!top" expanded="false" />
+            <element signature="n#testSetRequestMethodValidatesPassedString#0;n#TestRequestMethodMethods#0;n#!!top" expanded="false" />
+            <element signature="n#testClearRequestMethodIsCallable#0;n#TestRequestMethodMethods#0;n#!!top" expanded="false" />
+            <element signature="n#testClearRequestMethodSetsRequestMethodToGet#0;n#TestRequestMethodMethods#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/dollarhttp.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="31" selection-start="469" selection-end="469" vertical-scroll-proportion="-11.791667">
+        <state line="32" column="0" selection-start="629" selection-end="675" vertical-scroll-proportion="0.50803214">
           <folding>
             <element signature="n#getUrl#0;n#DollarHttp#0;n#!!top" expanded="false" />
             <element signature="n#setUrl#0;n#DollarHttp#0;n#!!top" expanded="false" />
             <element signature="n#clearUrl#0;n#DollarHttp#0;n#!!top" expanded="false" />
-            <element signature="n#getMethod#0;n#DollarHttp#0;n#!!top" expanded="false" />
-            <element signature="n#setMethod#0;n#DollarHttp#0;n#!!top" expanded="false" />
-            <element signature="n#clearMethod#0;n#DollarHttp#0;n#!!top" expanded="false" />
+            <element signature="n#getRequestMethod#0;n#DollarHttp#0;n#!!top" expanded="false" />
+            <element signature="n#setRequestMethod#0;n#DollarHttp#0;n#!!top" expanded="false" />
+            <element signature="n#clearRequestMethod#0;n#DollarHttp#0;n#!!top" expanded="false" />
             <element signature="n#getArgument#0;n#DollarHttp#0;n#!!top" expanded="false" />
             <element signature="n#setArgument#0;n#DollarHttp#0;n#!!top" expanded="false" />
             <element signature="n#deleteArgument#0;n#DollarHttp#0;n#!!top" expanded="false" />
@@ -361,25 +403,6 @@
             <element signature="n#setBody#0;n#DollarHttp#0;n#!!top" expanded="false" />
             <element signature="n#clearBody#0;n#DollarHttp#0;n#!!top" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/dollarHttpTests/testUrlMethods.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="35" selection-start="689" selection-end="689" vertical-scroll-proportion="0.45180723">
-          <folding>
-            <element signature="n#setUp#0;n#TestUrlMethods#0;n#!!top" expanded="false" />
-            <element signature="n#testGetUrlIsCallable#0;n#TestUrlMethods#0;n#!!top" expanded="false" />
-            <element signature="n#testUrlCanBeSet#0;n#TestUrlMethods#0;n#!!top" expanded="false" />
-            <element signature="n#testUrlCanBeCleared#0;n#TestUrlMethods#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/dollarHttpTests/dollarHttpTests.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="7" selection-end="93" vertical-scroll-proportion="0.15060242">
-          <folding />
         </state>
       </provider>
     </entry>

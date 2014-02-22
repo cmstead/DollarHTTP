@@ -3,7 +3,7 @@
 class DollarHttp{
 
     protected $url = "";
-    protected $method = "GET";
+    protected $requestMethod = "GET";
     protected $arguments = array();
     protected $headers = array();
     protected $body = "";
@@ -25,18 +25,22 @@ class DollarHttp{
         $this->url = "";
     }
 
-    /* Method management */
-    public function getMethod(){
-        return $this->method;
+    /* Request method management */
+    public function getRequestMethod(){
+        return $this->requestMethod;
     }
 
-    //Todo: validate request method before setting.
-    public function setMethod($method){
-        $this->method = $method;
+    public function setRequestMethod($method){
+        $method = strtoupper($method);
+
+        //Ensure passed method is a supported REST method
+        if(strpos("||DELETE|GET|POST|PUT||", $method)){
+            $this->requestMethod = $method;
+        }
     }
 
-    public function clearMethod(){
-        $this->method = "GET";
+    public function clearRequestMethod(){
+        $this->requestMethod = "GET";
     }
 
     /* Argument management */
