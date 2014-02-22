@@ -2,14 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6c98d0f-5254-4f7b-9e31-514cc8af162d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dollarhttp.php" afterPath="$PROJECT_DIR$/src/dollarhttp.php" />
     </list>
     <ignored path="dollarhttp.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="f6c98d0f-5254-4f7b-9e31-514cc8af162d" time="1393101124359" ignored="false" />
     <file path="/README.md" changelist="f6c98d0f-5254-4f7b-9e31-514cc8af162d" time="1393103640063" ignored="false" />
-    <file path="/dollarhttp.php" changelist="f6c98d0f-5254-4f7b-9e31-514cc8af162d" time="1393103621156" ignored="false" />
+    <file path="/dollarhttp.php" changelist="f6c98d0f-5254-4f7b-9e31-514cc8af162d" time="1393106516982" ignored="false" />
+    <file path="/dollarHttpTests.php" changelist="f6c98d0f-5254-4f7b-9e31-514cc8af162d" time="1393106423807" ignored="false" />
+    <file path="/urltests.php" changelist="f6c98d0f-5254-4f7b-9e31-514cc8af162d" time="1393107470711" ignored="false" />
+    <file path="/a.dummy" changelist="f6c98d0f-5254-4f7b-9e31-514cc8af162d" time="1393105897550" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,10 +40,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dollarhttp.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="dollarhttp.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/dollarhttp.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="56" column="5" selection-start="1185" selection-end="1185" vertical-scroll-proportion="0.55338544">
+            <state line="23" column="31" selection-start="469" selection-end="469" vertical-scroll-proportion="-11.791667">
               <folding>
                 <element signature="n#getUrl#0;n#DollarHttp#0;n#!!top" expanded="false" />
                 <element signature="n#setUrl#0;n#DollarHttp#0;n#!!top" expanded="false" />
@@ -55,12 +57,20 @@
                 <element signature="n#clearArguments#0;n#DollarHttp#0;n#!!top" expanded="false" />
                 <element signature="n#getHeader#0;n#DollarHttp#0;n#!!top" expanded="false" />
                 <element signature="n#setHeader#0;n#DollarHttp#0;n#!!top" expanded="false" />
-                <element signature="n#deleteHeader#0;n#DollarHttp#0;n#!!top" expanded="false" />
                 <element signature="n#clearHeaders#0;n#DollarHttp#0;n#!!top" expanded="false" />
                 <element signature="n#getBody#0;n#DollarHttp#0;n#!!top" expanded="false" />
                 <element signature="n#setBody#0;n#DollarHttp#0;n#!!top" expanded="false" />
                 <element signature="n#clearBody#0;n#DollarHttp#0;n#!!top" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dollarHttpTests.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tests/dollarHttpTests/dollarHttpTests.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="0" selection-start="7" selection-end="93" vertical-scroll-proportion="0.15060242">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -83,11 +93,15 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/dollarhttp.php" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/tests/dollarHttpTests/urltests.php" />
+        <option value="$PROJECT_DIR$/tests/dollarHttpTests/dollarHttpTests.php" />
+        <option value="$PROJECT_DIR$/tests/dollarHttpTests/testUrlMethods.php" />
+        <option value="$PROJECT_DIR$/src/dollarhttp.php" />
       </list>
     </option>
   </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="Main PHP Installation" />
   <component name="ProjectFrameBounds">
     <option name="x" value="10" />
     <option name="y" value="22" />
@@ -148,6 +162,38 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="tests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dollarhttp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dollarhttp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dollarHttpTests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dollarhttp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dollarhttp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -158,10 +204,41 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="options.lastSelected" value="editor.preferences.appearance" />
+    <property name="recentsLimit" value="5" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
-  <component name="RunManager">
-    <list size="0" />
+  <component name="RunManager" selected="PHP Script.dollarHttpTests.php">
+    <configuration default="false" name="dollarHttpTests.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/tests/dollarHttpTests/dollarHttpTests.php">
+      <RunnerSettings RunnerId="PhpRunner" />
+      <ConfigurationWrapper RunnerId="PhpRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="testUrlMethods.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/tests/dollarHttpTests/testUrlMethods.php">
+      <RunnerSettings RunnerId="PhpRunner" />
+      <ConfigurationWrapper RunnerId="PhpRunner" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="PHP Script.dollarHttpTests.php" />
+      <item index="1" class="java.lang.String" itemvalue="PHP Script.testUrlMethods.php" />
+    </list>
+    <recent_temporary>
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="PHP Script.dollarHttpTests.php" />
+        <item index="1" class="java.lang.String" itemvalue="PHP Script.testUrlMethods.php" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="TaskManager">
@@ -180,11 +257,11 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2496902" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2496902" sideWeight="0.6707317" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3292683" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -265,7 +342,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/dollarhttp.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="5" selection-start="1185" selection-end="1185" vertical-scroll-proportion="0.55338544">
+        <state line="23" column="31" selection-start="469" selection-end="469" vertical-scroll-proportion="-11.791667">
           <folding>
             <element signature="n#getUrl#0;n#DollarHttp#0;n#!!top" expanded="false" />
             <element signature="n#setUrl#0;n#DollarHttp#0;n#!!top" expanded="false" />
@@ -279,12 +356,30 @@
             <element signature="n#clearArguments#0;n#DollarHttp#0;n#!!top" expanded="false" />
             <element signature="n#getHeader#0;n#DollarHttp#0;n#!!top" expanded="false" />
             <element signature="n#setHeader#0;n#DollarHttp#0;n#!!top" expanded="false" />
-            <element signature="n#deleteHeader#0;n#DollarHttp#0;n#!!top" expanded="false" />
             <element signature="n#clearHeaders#0;n#DollarHttp#0;n#!!top" expanded="false" />
             <element signature="n#getBody#0;n#DollarHttp#0;n#!!top" expanded="false" />
             <element signature="n#setBody#0;n#DollarHttp#0;n#!!top" expanded="false" />
             <element signature="n#clearBody#0;n#DollarHttp#0;n#!!top" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/dollarHttpTests/testUrlMethods.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="35" selection-start="689" selection-end="689" vertical-scroll-proportion="0.45180723">
+          <folding>
+            <element signature="n#setUp#0;n#TestUrlMethods#0;n#!!top" expanded="false" />
+            <element signature="n#testGetUrlIsCallable#0;n#TestUrlMethods#0;n#!!top" expanded="false" />
+            <element signature="n#testUrlCanBeSet#0;n#TestUrlMethods#0;n#!!top" expanded="false" />
+            <element signature="n#testUrlCanBeCleared#0;n#TestUrlMethods#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/dollarHttpTests/dollarHttpTests.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="7" selection-end="93" vertical-scroll-proportion="0.15060242">
+          <folding />
         </state>
       </provider>
     </entry>

@@ -8,13 +8,13 @@ class DollarHttp{
     protected $headers = array();
     protected $body = "";
 
-    public function __construct($url = null, $method = null, $arguments = null, $body = null){
+    public function DollarHttp($url = null, $method = null, $arguments = null, $body = null){
 
     }
 
     /* URL management */
     public function getUrl(){
-        return $this->$url;
+        return $this->url;
     }
 
     public function setUrl($url){
@@ -22,7 +22,7 @@ class DollarHttp{
     }
 
     public function clearUrl(){
-        $this->$url = "";
+        $this->url = "";
     }
 
     /* Method management */
