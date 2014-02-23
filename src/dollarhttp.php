@@ -45,7 +45,13 @@ class DollarHttp{
 
     /* Argument management */
     public function getArgument($key){
-        return $this->arguments[$key];
+        $returnValue = null;
+
+        if(isset($this->arguments[$key])){
+            $returnValue = $this->arguments[$key];
+        }
+
+        return $returnValue;
     }
 
     public function setArgument($key, $value){
@@ -62,7 +68,13 @@ class DollarHttp{
 
     /* Header management */
     public function getHeader($key){
-        return $this->headers[$key];
+        $returnValue = null;
+
+        if(isset($this->headers[$key])){
+            $returnValue = $this->headers[$key];
+        }
+
+        return $returnValue;
     }
 
     public function setHeader($key, $value){
@@ -89,6 +101,8 @@ class DollarHttp{
     public function clearBody(){
         $this->body = "";
     }
+
+    /* cURL setup and use */
 
 }
 

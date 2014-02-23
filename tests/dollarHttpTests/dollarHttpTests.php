@@ -9,6 +9,9 @@ class DollarHttpTestSuite extends TestSuite{
         $this->TestSuite('DollarHttpTestSuite');
         $this->addFile("./testUrlMethods.php");
         $this->addFile("./testRequestMethodMethods.php");
+        $this->addFile("./testArgumentMethods.php");
+        $this->addFile("./testHeaderMethods.php");
+        $this->addFile("./testBodyMethods.php");
     }
 
 }

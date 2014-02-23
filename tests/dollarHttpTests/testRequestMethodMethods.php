@@ -32,7 +32,7 @@ class TestRequestMethodMethods extends UnitTestCase{
     }
 
     public function testSetRequestMethodUpdatesRequestMethod(){
-        $returnedRequestMethod = "";
+        $returnedRequestMethod = null;
 
         $this->http->setRequestMethod('POST');
         $returnedRequestMethod = $this->http->getRequestMethod();
@@ -41,7 +41,7 @@ class TestRequestMethodMethods extends UnitTestCase{
     }
 
     public function testSetRequestMethodTransformsStringToUpperCase(){
-        $returnedRequestMethod = "";
+        $returnedRequestMethod = null;
 
         $this->http->setRequestMethod('post');
         $returnedRequestMethod = $this->http->getRequestMethod();
@@ -50,7 +50,7 @@ class TestRequestMethodMethods extends UnitTestCase{
     }
 
     public function testSetRequestMethodValidatesPassedString(){
-        $returnedRequestMethod = "";
+        $returnedRequestMethod = null;
 
         $this->http->setRequestMethod("TEST");
         $returnedRequestMethod = $this->http->getRequestMethod();
@@ -66,7 +66,7 @@ class TestRequestMethodMethods extends UnitTestCase{
     }
 
     public function testClearRequestMethodSetsRequestMethodToGet(){
-        $returnedRequestMethod = "";
+        $returnedRequestMethod = null;
 
         $this->http->setRequestMethod("POST");
         $returnedRequestMethod = $this->http->getRequestMethod();

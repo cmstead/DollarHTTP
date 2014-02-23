@@ -33,7 +33,7 @@ class TestUrlMethods extends UnitTestCase{
 
     public function testUrlCanBeSet(){
         $setUrl = "http://www.gooogle.com";
-        $returnedUrl = "";
+        $returnedUrl = null;
 
         $this->http->setUrl($setUrl);
         $returnedUrl = $this->http->getUrl();
@@ -50,13 +50,11 @@ class TestUrlMethods extends UnitTestCase{
 
     public function testUrlCanBeCleared(){
         $setUrl = "http://www.google.con";
-        $returnedUrl = "";
+        $returnedUrl = null;
 
         $this->http->setUrl($setUrl);
         $returnedUrl = $this->http->getUrl();
 
-        //This is to ensure a URL was set so we can verify that it was cleared
-        //This assert should only fail if the previous test fails
         $this->assertEqual($returnedUrl, $setUrl);
 
         $this->http->clearUrl();
