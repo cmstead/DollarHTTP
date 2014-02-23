@@ -62,6 +62,49 @@ class TestHeaderMethods extends UnitTestCase{
     }
 
 
+    public function testSetHeadersIsCallable(){
+        $isCallable = is_callable(array($this->http, 'setHeaders'));
+
+        $this->assertTrue($isCallable);
+    }
+
+    public function testSetHeadersThrowsExceptionWhenHeadersIsNotAnArray(){
+        $exception = null;
+
+        try{
+            $this->http->setHeaders("");
+        } catch (Exception $e){
+            $exception = $e;
+        }
+
+        $this->assertNotEqual($exception, null);
+    }
+
+    public function testSetHeadersSetsArrayKeyValuePairs(){
+        $headers = array("test" => "testValue");
+        $returnedValue = null;
+
+        $this->http->setHeaders($headers);
+
+        $returnedValue = $this->http->getHeader('test');
+
+        $this->assertEqual($returnedValue, "testValue");
+    }
+
+    public function testSetHeadersSetsArrayWithoutDestroyingExistingValues(){
+        $headers = array("test1" => "testValue1");
+        $returnedValue = null;
+
+        $this->http->setHeader("test2", "testValue2");
+        $this->http->setHeaders($headers);
+
+        $returnedValue = $this->http->getHeader("test1");
+        $returnedValue .= ", " . $this->http->getHeader("test2");
+
+        $this->assertEqual($returnedValue, "testValue1, testValue2");
+    }
+
+
     public function testDeleteHeaderIsCallable(){
         $isCallable = is_callable(array($this->http, 'deleteHeader'));
 

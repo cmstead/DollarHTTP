@@ -8,8 +8,35 @@ class DollarHttp{
     protected $headers = array();
     protected $body = "";
 
-    public function DollarHttp($url = null, $method = null, $arguments = null, $body = null){
+    public function DollarHttp($url = null, $requestMethod = null, $arguments = null, $body = null, $headers = null){
 
+        if($url !== null){
+            $this->setUrl($url);
+        }
+
+        if($requestMethod !== null){
+            $this->setRequestMethod($requestMethod);
+        }
+
+        if($arguments !== null){
+            try{
+                $this->setArguments($arguments);
+            } catch(Exception $e){
+                throw $e;
+            }
+        }
+
+        if($body !== null){
+            $this->setBody($body);
+        }
+
+        if($headers !== null){
+            try{
+                $this->setHeaders($headers);
+            } catch(Exception $e){
+                throw $e;
+            }
+        }
     }
 
     /* URL management */
@@ -58,6 +85,16 @@ class DollarHttp{
         $this->arguments[$key] = $value;
     }
 
+    public function setArguments($arguments){
+        if(is_array($arguments)){
+            foreach($arguments as $key=>$value){
+                $this->arguments[$key] = $value;
+            }
+        } else {
+            throw new Exception("Variable \$arguments must be an array.");
+        }
+    }
+
     public function deleteArgument($key){
         unset($this->arguments[$key]);
     }
@@ -79,6 +116,16 @@ class DollarHttp{
 
     public function setHeader($key, $value){
         $this->headers[$key] = $value;
+    }
+
+    public function setHeaders($headers){
+        if(is_array($headers)){
+            foreach($headers as $key=>$value){
+                $this->headers[$key] = $value;
+            }
+        } else {
+            throw new Exception("Variable \$headers must be an array.");
+        }
     }
 
     public function deleteHeader($key){

@@ -62,6 +62,49 @@ class TestArgumentMethods extends UnitTestCase{
     }
 
 
+    public function testSetArgumentsIsCallable(){
+        $isCallable = is_callable(array($this->http, 'setArguments'));
+
+        $this->assertTrue($isCallable);
+    }
+
+    public function testSetArgumentsThrowsExceptionWhenArgumentsIsNotAnArray(){
+        $exception = null;
+
+        try{
+            $this->http->setArguments("");
+        } catch (Exception $e){
+            $exception = $e;
+        }
+
+        $this->assertNotEqual($exception, null);
+    }
+
+    public function testSetArgumentsSetsArrayKeyValuePairs(){
+        $arguments = array("test" => "testValue");
+        $returnedValue = null;
+
+        $this->http->setArguments($arguments);
+
+        $returnedValue = $this->http->getArgument('test');
+
+        $this->assertEqual($returnedValue, "testValue");
+    }
+
+    public function testSetArgumentsSetsArrayWithoutDestroyingExistingValues(){
+        $arguments = array("test1" => "testValue1");
+        $returnedValue = null;
+
+        $this->http->setArgument("test2", "testValue2");
+        $this->http->setArguments($arguments);
+
+        $returnedValue = $this->http->getArgument("test1");
+        $returnedValue .= ", " . $this->http->getArgument("test2");
+
+        $this->assertEqual($returnedValue, "testValue1, testValue2");
+    }
+
+
     public function testDeleteArgumentIsCallable(){
         $isCallable = is_callable(array($this->http, 'deleteArgument'));
 
