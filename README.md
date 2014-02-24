@@ -36,7 +36,7 @@ Completed items are as follows:
 - [X] Request body management (get, set and clear)
 - [X] Argument construction upon executing request
 - [X] Header construction upon executing request
-- [ ] HTTP and HTTPS support
+- [X] HTTP and HTTPS support
 - [ ] Full API documentation
 
 

@@ -2,6 +2,9 @@
 
 class DollarHttp{
 
+    //Set this if you are going to make HTTPS requests
+    var $certPath = "";
+
     protected $url = "";
     protected $requestMethod = "GET";
     protected $arguments = array();
@@ -215,6 +218,7 @@ class DollarHttp{
 
         $this->setCurlOpts($url);
         $this->setHeaderOpts();
+        $this->setHttpsOpts();
         $this->setPostOpts();
 
         $this->curlResponse = curl_exec($this->curlHandle);
@@ -229,9 +233,11 @@ class DollarHttp{
     }
 
     public function setCurlOpts($url){
-        curl_setopt($this->curlHandle, CURLOPT_URL, $url);
-        curl_setopt($this->curlHandle, CURLOPT_CUSTOMREQUEST, $this->requestMethod);
-        curl_setopt($this->curlHandle, CURLOPT_RETURNTRANSFER, true);
+        curl_setopt_array($this->curlHandle, array(
+            CURLOPT_URL => $url,
+            CURLOPT_CUSTOMREQUEST => $this->requestMethod,
+            CURLOPT_RETURNTRANSFER => true
+        ));
     }
 
     public function setPostOpts(){
@@ -248,6 +254,19 @@ class DollarHttp{
 
         if(sizeof($headers)){
             curl_setopt($this->curlHandle, CURLOPT_HTTPHEADER, $headers);
+        }
+    }
+
+    public function setHttpsOpts(){
+        $pattern = "/^https/i";
+
+        if(preg_match($pattern, $this->url) && $this->certPath !== ""){
+            curl_setopt_array($this->curlHandle, array(
+                CURLOPT_SSL_VERIFYPEER => true,
+                CURLOPT_SSL_VERIFYHOST => 2,
+                CURLOPT_VERBOSE => true,
+                CURLOPT_CAINFO => $this->certPath,
+            ));
         }
     }
 

@@ -4,13 +4,13 @@
     <list default="true" id="f6c98d0f-5254-4f7b-9e31-514cc8af162d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dollarhttp.php" afterPath="$PROJECT_DIR$/src/dollarhttp.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/dollarHttpTests/testHeaderMethods.php" afterPath="$PROJECT_DIR$/tests/dollarHttpTests/testHeaderMethods.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="dollarhttp.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="f6c98d0f-5254-4f7b-9e31-514cc8af162d" time="1393101124359" ignored="false" />
-    <file path="/README.md" changelist="f6c98d0f-5254-4f7b-9e31-514cc8af162d" time="1393206301097" ignored="false" />
-    <file path="/dollarhttp.php" changelist="f6c98d0f-5254-4f7b-9e31-514cc8af162d" time="1393206445056" ignored="false" />
+    <file path="/README.md" changelist="f6c98d0f-5254-4f7b-9e31-514cc8af162d" time="1393209789763" ignored="false" />
+    <file path="/dollarhttp.php" changelist="f6c98d0f-5254-4f7b-9e31-514cc8af162d" time="1393209578359" ignored="false" />
     <file path="/dollarHttpTests.php" changelist="f6c98d0f-5254-4f7b-9e31-514cc8af162d" time="1393106423807" ignored="false" />
     <file path="/urltests.php" changelist="f6c98d0f-5254-4f7b-9e31-514cc8af162d" time="1393108111679" ignored="false" />
     <file path="/a.dummy" changelist="f6c98d0f-5254-4f7b-9e31-514cc8af162d" time="1393105897550" ignored="false" />
@@ -20,7 +20,7 @@
     <file path="/a.php" changelist="f6c98d0f-5254-4f7b-9e31-514cc8af162d" time="1393124011978" ignored="false" />
     <file path="/testConstructorBehavior.php" changelist="f6c98d0f-5254-4f7b-9e31-514cc8af162d" time="1393129510111" ignored="false" />
     <file path="/testCurlSetupMethods.php" changelist="f6c98d0f-5254-4f7b-9e31-514cc8af162d" time="1393137830874" ignored="false" />
-    <file path="/testHeaderMethods.php" changelist="f6c98d0f-5254-4f7b-9e31-514cc8af162d" time="1393206255939" ignored="false" />
+    <file path="/testHeaderMethods.php" changelist="f6c98d0f-5254-4f7b-9e31-514cc8af162d" time="1393209152442" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,114 +39,7 @@
     <favorites_list name="dollarhttp" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="dollarhttp.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/dollarhttp.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="245" column="36" selection-start="6069" selection-end="6069" vertical-scroll-proportion="-16.375">
-              <folding>
-                <element signature="n#DollarHttp#0;n#DollarHttp#0;n#!!top" expanded="false" />
-                <element signature="e#419#480#0" expanded="false" />
-                <element signature="e#490#581#0" expanded="false" />
-                <element signature="e#591#766#0" expanded="false" />
-                <element signature="e#628#756#0" expanded="false" />
-                <element signature="e#696#756#0" expanded="false" />
-                <element signature="e#776#840#0" expanded="false" />
-                <element signature="e#850#1019#0" expanded="false" />
-                <element signature="e#885#1009#0" expanded="false" />
-                <element signature="e#949#1009#0" expanded="false" />
-                <element signature="n#getUrl#0;n#DollarHttp#0;n#!!top" expanded="false" />
-                <element signature="n#setUrl#0;n#DollarHttp#0;n#!!top" expanded="false" />
-                <element signature="n#clearUrl#0;n#DollarHttp#0;n#!!top" expanded="false" />
-                <element signature="n#getRequestMethod#0;n#DollarHttp#0;n#!!top" expanded="false" />
-                <element signature="n#setRequestMethod#0;n#DollarHttp#0;n#!!top" expanded="false" />
-                <element signature="e#1521#1622#0" expanded="false" />
-                <element signature="n#clearRequestMethod#0;n#DollarHttp#0;n#!!top" expanded="false" />
-                <element signature="n#getArgument#0;n#DollarHttp#0;n#!!top" expanded="false" />
-                <element signature="e#1824#1919#0" expanded="false" />
-                <element signature="n#setArgument#0;n#DollarHttp#0;n#!!top" expanded="false" />
-                <element signature="n#setArguments#0;n#DollarHttp#0;n#!!top" expanded="false" />
-                <element signature="e#2106#2345#0" expanded="false" />
-                <element signature="e#2144#2243#0" expanded="false" />
-                <element signature="e#2254#2345#0" expanded="false" />
-                <element signature="n#deleteArgument#0;n#DollarHttp#0;n#!!top" expanded="false" />
-                <element signature="n#clearArguments#0;n#DollarHttp#0;n#!!top" expanded="false" />
-                <element signature="n#prepareArguments#0;n#DollarHttp#0;n#!!top" expanded="false" />
-                <element signature="e#2606#2895#0" expanded="false" />
-                <element signature="e#2648#2885#0" expanded="false" />
-                <element signature="n#getHeader#0;n#DollarHttp#0;n#!!top" expanded="false" />
-                <element signature="e#3042#3133#0" expanded="false" />
-                <element signature="n#setHeader#0;n#DollarHttp#0;n#!!top" expanded="false" />
-                <element signature="n#setHeaders#0;n#DollarHttp#0;n#!!top" expanded="false" />
-                <element signature="e#3312#3543#0" expanded="false" />
-                <element signature="e#3348#3443#0" expanded="false" />
-                <element signature="e#3454#3543#0" expanded="false" />
-                <element signature="n#deleteHeader#0;n#DollarHttp#0;n#!!top" expanded="false" />
-                <element signature="n#clearHeaders#0;n#DollarHttp#0;n#!!top" expanded="false" />
-                <element signature="n#prepareHeaders#0;n#DollarHttp#0;n#!!top" expanded="false" />
-                <element signature="e#3793#3948#0" expanded="false" />
-                <element signature="e#3833#3938#0" expanded="false" />
-                <element signature="n#getBody#0;n#DollarHttp#0;n#!!top" expanded="false" />
-                <element signature="n#setBody#0;n#DollarHttp#0;n#!!top" expanded="false" />
-                <element signature="n#clearBody#0;n#DollarHttp#0;n#!!top" expanded="false" />
-                <element signature="n#sendRequest#0;n#DollarHttp#0;n#!!top" expanded="false" />
-                <element signature="n#compileUrl#0;n#DollarHttp#0;n#!!top" expanded="false" />
-                <element signature="e#4477#4641#0" expanded="false" />
-                <element signature="n#getLastRequest#0;n#DollarHttp#0;n#!!top" expanded="false" />
-                <element signature="e#4744#4931#0" expanded="false" />
-                <element signature="e#4800#4920#0" expanded="false" />
-                <element signature="n#curlRequest#0;n#DollarHttp#0;n#!!top" expanded="false" />
-                <element signature="e#5370#5477#0" expanded="false" />
-                <element signature="n#setCurlOpts#0;n#DollarHttp#0;n#!!top" expanded="false" />
-                <element signature="n#setPostOpts#0;n#DollarHttp#0;n#!!top" expanded="false" />
-                <element signature="e#5908#6025#0" expanded="false" />
-                <element signature="n#setHeaderOpts#0;n#DollarHttp#0;n#!!top" expanded="false" />
-                <element signature="e#6123#6228#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="testHeaderMethods.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tests/dollarHttpTests/testHeaderMethods.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="185" column="42" selection-start="5391" selection-end="5391" vertical-scroll-proportion="0.8192771">
-              <folding>
-                <element signature="n#setUp#0;n#TestHeaderMethods#0;n#!!top" expanded="false" />
-                <element signature="n#testGetHeaderIsCallable#0;n#TestHeaderMethods#0;n#!!top" expanded="false" />
-                <element signature="n#testGetHeaderReturnsCorrectValue#0;n#TestHeaderMethods#0;n#!!top" expanded="false" />
-                <element signature="n#testGetHeaderReturnsNullIfKeyIsNotSet#0;n#TestHeaderMethods#0;n#!!top" expanded="false" />
-                <element signature="n#testSetHeaderIsCallable#0;n#TestHeaderMethods#0;n#!!top" expanded="false" />
-                <element signature="n#testSetHeaderSetsAValueToAKey#0;n#TestHeaderMethods#0;n#!!top" expanded="false" />
-                <element signature="n#testSetHeaderCanSetMoreThanOneKeyValuePair#0;n#TestHeaderMethods#0;n#!!top" expanded="false" />
-                <element signature="n#testSetHeadersIsCallable#0;n#TestHeaderMethods#0;n#!!top" expanded="false" />
-                <element signature="n#testSetHeadersThrowsExceptionWhenHeadersIsNotAnArray#0;n#TestHeaderMethods#0;n#!!top" expanded="false" />
-                <element signature="e#1954#2070#0" expanded="false" />
-                <element signature="e#2010#2070#0" expanded="false" />
-                <element signature="n#testSetHeadersSetsArrayKeyValuePairs#0;n#TestHeaderMethods#0;n#!!top" expanded="false" />
-                <element signature="n#testSetHeadersSetsArrayWithoutDestroyingExistingValues#0;n#TestHeaderMethods#0;n#!!top" expanded="false" />
-                <element signature="n#testDeleteHeaderIsCallable#0;n#TestHeaderMethods#0;n#!!top" expanded="false" />
-                <element signature="n#testDeleteHeaderDoesNotBombWhenAttemptingToDeleteValueNotAvailable#0;n#TestHeaderMethods#0;n#!!top" expanded="false" />
-                <element signature="n#testDeleteHeaderDeletesKeyedRecord#0;n#TestHeaderMethods#0;n#!!top" expanded="false" />
-                <element signature="n#testClearHeadersIsCallable#0;n#TestHeaderMethods#0;n#!!top" expanded="false" />
-                <element signature="n#testClearHeadersCorrectlyClearsHeaderKeyValuePairs#0;n#TestHeaderMethods#0;n#!!top" expanded="false" />
-                <element signature="n#testPrepareHeadersIsCallable#0;n#TestHeaderMethods#0;n#!!top" expanded="false" />
-                <element signature="n#testPrepareHeadersReturnsAnArray#0;n#TestHeaderMethods#0;n#!!top" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="4" selection-start="1306" selection-end="1306" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -172,9 +65,9 @@
         <option value="$PROJECT_DIR$/tests/dollarHttpTests/testConstructorBehavior.php" />
         <option value="$PROJECT_DIR$/tests/dollarHttpTests/testArgumentMethods.php" />
         <option value="$PROJECT_DIR$/tests/dollarHttpTests/testCurlSetupMethods.php" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/src/dollarhttp.php" />
         <option value="$PROJECT_DIR$/tests/dollarHttpTests/testHeaderMethods.php" />
+        <option value="$PROJECT_DIR$/src/dollarhttp.php" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -288,7 +181,7 @@
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
   </component>
-  <component name="RunManager" selected="PHP Script.testHeaderMethods.php">
+  <component name="RunManager" selected="PHP Script.dollarHttpTests.php">
     <configuration default="false" name="dollarHttpTests.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/tests/dollarHttpTests/dollarHttpTests.php">
       <RunnerSettings RunnerId="PhpRunner" />
       <ConfigurationWrapper RunnerId="PhpRunner" />
@@ -330,8 +223,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="PHP Script.testHeaderMethods.php" />
-        <item index="1" class="java.lang.String" itemvalue="PHP Script.dollarHttpTests.php" />
+        <item index="0" class="java.lang.String" itemvalue="PHP Script.dollarHttpTests.php" />
+        <item index="1" class="java.lang.String" itemvalue="PHP Script.testHeaderMethods.php" />
         <item index="2" class="java.lang.String" itemvalue="PHP Script.testCurlSetupMethods.php" />
         <item index="3" class="java.lang.String" itemvalue="PHP Script.testArgumentMethods.php" />
         <item index="4" class="java.lang.String" itemvalue="PHP Script.testConstructorBehavior.php" />
@@ -349,7 +242,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="9" y="22" width="1660" height="940" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -359,7 +252,7 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3292683" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3292683" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -536,79 +429,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="4" selection-start="1306" selection-end="1306" vertical-scroll-proportion="0.0">
+        <state line="38" column="4" selection-start="1355" selection-end="1355" vertical-scroll-proportion="0.7758621">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dollarhttp.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="245" column="36" selection-start="6069" selection-end="6069" vertical-scroll-proportion="-16.375">
-          <folding>
-            <element signature="n#DollarHttp#0;n#DollarHttp#0;n#!!top" expanded="false" />
-            <element signature="e#419#480#0" expanded="false" />
-            <element signature="e#490#581#0" expanded="false" />
-            <element signature="e#591#766#0" expanded="false" />
-            <element signature="e#628#756#0" expanded="false" />
-            <element signature="e#696#756#0" expanded="false" />
-            <element signature="e#776#840#0" expanded="false" />
-            <element signature="e#850#1019#0" expanded="false" />
-            <element signature="e#885#1009#0" expanded="false" />
-            <element signature="e#949#1009#0" expanded="false" />
-            <element signature="n#getUrl#0;n#DollarHttp#0;n#!!top" expanded="false" />
-            <element signature="n#setUrl#0;n#DollarHttp#0;n#!!top" expanded="false" />
-            <element signature="n#clearUrl#0;n#DollarHttp#0;n#!!top" expanded="false" />
-            <element signature="n#getRequestMethod#0;n#DollarHttp#0;n#!!top" expanded="false" />
-            <element signature="n#setRequestMethod#0;n#DollarHttp#0;n#!!top" expanded="false" />
-            <element signature="e#1521#1622#0" expanded="false" />
-            <element signature="n#clearRequestMethod#0;n#DollarHttp#0;n#!!top" expanded="false" />
-            <element signature="n#getArgument#0;n#DollarHttp#0;n#!!top" expanded="false" />
-            <element signature="e#1824#1919#0" expanded="false" />
-            <element signature="n#setArgument#0;n#DollarHttp#0;n#!!top" expanded="false" />
-            <element signature="n#setArguments#0;n#DollarHttp#0;n#!!top" expanded="false" />
-            <element signature="e#2106#2345#0" expanded="false" />
-            <element signature="e#2144#2243#0" expanded="false" />
-            <element signature="e#2254#2345#0" expanded="false" />
-            <element signature="n#deleteArgument#0;n#DollarHttp#0;n#!!top" expanded="false" />
-            <element signature="n#clearArguments#0;n#DollarHttp#0;n#!!top" expanded="false" />
-            <element signature="n#prepareArguments#0;n#DollarHttp#0;n#!!top" expanded="false" />
-            <element signature="e#2606#2895#0" expanded="false" />
-            <element signature="e#2648#2885#0" expanded="false" />
-            <element signature="n#getHeader#0;n#DollarHttp#0;n#!!top" expanded="false" />
-            <element signature="e#3042#3133#0" expanded="false" />
-            <element signature="n#setHeader#0;n#DollarHttp#0;n#!!top" expanded="false" />
-            <element signature="n#setHeaders#0;n#DollarHttp#0;n#!!top" expanded="false" />
-            <element signature="e#3312#3543#0" expanded="false" />
-            <element signature="e#3348#3443#0" expanded="false" />
-            <element signature="e#3454#3543#0" expanded="false" />
-            <element signature="n#deleteHeader#0;n#DollarHttp#0;n#!!top" expanded="false" />
-            <element signature="n#clearHeaders#0;n#DollarHttp#0;n#!!top" expanded="false" />
-            <element signature="n#prepareHeaders#0;n#DollarHttp#0;n#!!top" expanded="false" />
-            <element signature="e#3793#3948#0" expanded="false" />
-            <element signature="e#3833#3938#0" expanded="false" />
-            <element signature="n#getBody#0;n#DollarHttp#0;n#!!top" expanded="false" />
-            <element signature="n#setBody#0;n#DollarHttp#0;n#!!top" expanded="false" />
-            <element signature="n#clearBody#0;n#DollarHttp#0;n#!!top" expanded="false" />
-            <element signature="n#sendRequest#0;n#DollarHttp#0;n#!!top" expanded="false" />
-            <element signature="n#compileUrl#0;n#DollarHttp#0;n#!!top" expanded="false" />
-            <element signature="e#4477#4641#0" expanded="false" />
-            <element signature="n#getLastRequest#0;n#DollarHttp#0;n#!!top" expanded="false" />
-            <element signature="e#4744#4931#0" expanded="false" />
-            <element signature="e#4800#4920#0" expanded="false" />
-            <element signature="n#curlRequest#0;n#DollarHttp#0;n#!!top" expanded="false" />
-            <element signature="e#5370#5477#0" expanded="false" />
-            <element signature="n#setCurlOpts#0;n#DollarHttp#0;n#!!top" expanded="false" />
-            <element signature="n#setPostOpts#0;n#DollarHttp#0;n#!!top" expanded="false" />
-            <element signature="e#5908#6025#0" expanded="false" />
-            <element signature="n#setHeaderOpts#0;n#DollarHttp#0;n#!!top" expanded="false" />
-            <element signature="e#6123#6228#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/dollarHttpTests/testHeaderMethods.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="185" column="42" selection-start="5391" selection-end="5391" vertical-scroll-proportion="0.8192771">
+        <state line="8" column="0" selection-start="155" selection-end="155" vertical-scroll-proportion="0.24096386">
           <folding>
             <element signature="n#setUp#0;n#TestHeaderMethods#0;n#!!top" expanded="false" />
             <element signature="n#testGetHeaderIsCallable#0;n#TestHeaderMethods#0;n#!!top" expanded="false" />
@@ -630,6 +458,78 @@
             <element signature="n#testClearHeadersCorrectlyClearsHeaderKeyValuePairs#0;n#TestHeaderMethods#0;n#!!top" expanded="false" />
             <element signature="n#testPrepareHeadersIsCallable#0;n#TestHeaderMethods#0;n#!!top" expanded="false" />
             <element signature="n#testPrepareHeadersReturnsAnArray#0;n#TestHeaderMethods#0;n#!!top" expanded="false" />
+            <element signature="n#testPrepareHeadersReturnsPreparedArrayOfHeaders#0;n#TestHeaderMethods#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dollarhttp.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="234" column="38" selection-start="5635" selection-end="5635" vertical-scroll-proportion="0.5180723">
+          <folding>
+            <element signature="n#DollarHttp#0;n#DollarHttp#0;n#!!top" expanded="false" />
+            <element signature="e#499#560#0" expanded="false" />
+            <element signature="e#570#661#0" expanded="false" />
+            <element signature="e#671#846#0" expanded="false" />
+            <element signature="e#708#836#0" expanded="false" />
+            <element signature="e#776#836#0" expanded="false" />
+            <element signature="e#856#920#0" expanded="false" />
+            <element signature="e#930#1099#0" expanded="false" />
+            <element signature="e#965#1089#0" expanded="false" />
+            <element signature="e#1029#1089#0" expanded="false" />
+            <element signature="n#getUrl#0;n#DollarHttp#0;n#!!top" expanded="false" />
+            <element signature="n#setUrl#0;n#DollarHttp#0;n#!!top" expanded="false" />
+            <element signature="n#clearUrl#0;n#DollarHttp#0;n#!!top" expanded="false" />
+            <element signature="n#getRequestMethod#0;n#DollarHttp#0;n#!!top" expanded="false" />
+            <element signature="n#setRequestMethod#0;n#DollarHttp#0;n#!!top" expanded="false" />
+            <element signature="e#1601#1702#0" expanded="false" />
+            <element signature="n#clearRequestMethod#0;n#DollarHttp#0;n#!!top" expanded="false" />
+            <element signature="n#getArgument#0;n#DollarHttp#0;n#!!top" expanded="false" />
+            <element signature="e#1904#1999#0" expanded="false" />
+            <element signature="n#setArgument#0;n#DollarHttp#0;n#!!top" expanded="false" />
+            <element signature="n#setArguments#0;n#DollarHttp#0;n#!!top" expanded="false" />
+            <element signature="e#2186#2425#0" expanded="false" />
+            <element signature="e#2224#2323#0" expanded="false" />
+            <element signature="e#2334#2425#0" expanded="false" />
+            <element signature="n#deleteArgument#0;n#DollarHttp#0;n#!!top" expanded="false" />
+            <element signature="n#clearArguments#0;n#DollarHttp#0;n#!!top" expanded="false" />
+            <element signature="n#prepareArguments#0;n#DollarHttp#0;n#!!top" expanded="false" />
+            <element signature="e#2686#2975#0" expanded="false" />
+            <element signature="e#2728#2965#0" expanded="false" />
+            <element signature="n#getHeader#0;n#DollarHttp#0;n#!!top" expanded="false" />
+            <element signature="e#3122#3213#0" expanded="false" />
+            <element signature="n#setHeader#0;n#DollarHttp#0;n#!!top" expanded="false" />
+            <element signature="n#setHeaders#0;n#DollarHttp#0;n#!!top" expanded="false" />
+            <element signature="e#3392#3623#0" expanded="false" />
+            <element signature="e#3428#3523#0" expanded="false" />
+            <element signature="e#3534#3623#0" expanded="false" />
+            <element signature="n#deleteHeader#0;n#DollarHttp#0;n#!!top" expanded="false" />
+            <element signature="n#clearHeaders#0;n#DollarHttp#0;n#!!top" expanded="false" />
+            <element signature="n#prepareHeaders#0;n#DollarHttp#0;n#!!top" expanded="false" />
+            <element signature="e#3873#4028#0" expanded="false" />
+            <element signature="e#3913#4018#0" expanded="false" />
+            <element signature="n#getBody#0;n#DollarHttp#0;n#!!top" expanded="false" />
+            <element signature="n#setBody#0;n#DollarHttp#0;n#!!top" expanded="false" />
+            <element signature="n#clearBody#0;n#DollarHttp#0;n#!!top" expanded="false" />
+            <element signature="n#sendRequest#0;n#DollarHttp#0;n#!!top" expanded="false" />
+            <element signature="n#compileUrl#0;n#DollarHttp#0;n#!!top" expanded="false" />
+            <element signature="e#4557#4721#0" expanded="false" />
+            <element signature="n#getLastRequest#0;n#DollarHttp#0;n#!!top" expanded="false" />
+            <element signature="e#4824#5011#0" expanded="false" />
+            <element signature="e#4880#5000#0" expanded="false" />
+            <element signature="n#curlRequest#0;n#DollarHttp#0;n#!!top" expanded="false" />
+            <element signature="e#5481#5588#0" expanded="false" />
+            <element signature="n#setCurlOpts#0;n#DollarHttp#0;n#!!top" expanded="false" />
+            <element signature="e#5644#5833#0" expanded="false" />
+            <element signature="e#5681#5832#0" expanded="false" />
+            <element signature="n#setPostOpts#0;n#DollarHttp#0;n#!!top" expanded="false" />
+            <element signature="e#6004#6121#0" expanded="false" />
+            <element signature="n#setHeaderOpts#0;n#DollarHttp#0;n#!!top" expanded="false" />
+            <element signature="e#6219#6324#0" expanded="false" />
+            <element signature="n#setHttpsOpts#0;n#DollarHttp#0;n#!!top" expanded="false" />
+            <element signature="e#6409#6739#0" expanded="false" />
+            <element signature="e#6485#6728#0" expanded="false" />
+            <element signature="e#6522#6727#0" expanded="false" />
           </folding>
         </state>
       </provider>
