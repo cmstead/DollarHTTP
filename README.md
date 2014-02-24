@@ -1,10 +1,10 @@
 dollarhttp
 ==========
 
-DollarHttp will be a full-spectrum request cURL wrapper for PHP.
+DollarHttp is a broad-spectrum, REST-oriented request cURL wrapper for PHP.
 
 DollarHttp is intended to create a clean, easy way to interact with cURL and make calls across both HTTP and HTTPS
-via the four most common methods:
+via the four primary REST methods:
 
 - DELETE
 - GET
@@ -38,5 +38,4 @@ Completed items are as follows:
 - [X] Header construction upon executing request
 - [X] HTTP and HTTPS support
 - [ ] Full API documentation
-
 
