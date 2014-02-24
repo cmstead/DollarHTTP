@@ -160,6 +160,34 @@ class TestArgumentMethods extends UnitTestCase{
         $this->assertEqual($returnedValue, null);
     }
 
+
+    public function testPrepareArgumentsIsCallable(){
+        $isCallable = is_callable(array($this->http, 'prepareArguments'));
+
+        $this->assertTrue($isCallable);
+    }
+
+    public function testPrepareArgumentsBuildsArgumentString(){
+        $requestArguments = null;
+
+        $arguments = array("test1" => "testValue1", "test2" => "testValue2");
+        $this->http->setArguments($arguments);
+
+        $requestArguments = $this->http->prepareArguments();
+
+        $this->assertEqual($requestArguments, "test1=testValue1&test2=testValue2");
+    }
+
+    public function testPrepareArgumentsURLEncodesArguments(){
+        $requestArguments = null;
+
+        $arguments = array("test1" => "test value 1", "test2" => "test value 2");
+        $this->http->setArguments($arguments);
+
+        $requestArguments = $this->http->prepareArguments();
+
+        $this->assertEqual($requestArguments, "test1=test+value+1&test2=test+value+2");
+    }
 }
 
 ?>

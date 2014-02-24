@@ -7,6 +7,9 @@ class DollarHttp{
     protected $arguments = array();
     protected $headers = array();
     protected $body = "";
+    protected $curlHandle = null;
+    protected $curlResponse = null;
+    protected $curlStatusCode = "";
 
     public function DollarHttp($url = null, $requestMethod = null, $arguments = null, $body = null, $headers = null){
 
@@ -103,6 +106,19 @@ class DollarHttp{
         $this->arguments = array();
     }
 
+    public function prepareArguments(){
+        $preparedArguments = null;
+
+        if(sizeof($this->arguments)){
+            foreach($this->arguments as $key=>$value){
+                $preparedArguments = ($preparedArguments === null) ? "" : $preparedArguments . "&";
+                $preparedArguments .= urlencode($key) . "=" . urlencode($value);
+            }
+        }
+
+        return $preparedArguments;
+    }
+
     /* Header management */
     public function getHeader($key){
         $returnValue = null;
@@ -149,7 +165,70 @@ class DollarHttp{
         $this->body = "";
     }
 
+    /* General request methods */
+    public function sendRequest(){
+        $url = $this->compileUrl();
+
+        return $this->curlRequest($url);
+    }
+
+    public function compileUrl(){
+        $arguments = null;
+        $url = $this->url;
+
+        if($this->requestMethod === 'GET'){
+            $arguments = $this->prepareArguments();
+            $url .= ($arguments !== null) ? "?" . $arguments : "";
+        }
+
+        return $url;
+    }
+
+    public function getLastRequest(){
+        $response = null;
+
+        if($this->curlResponse !== ""){
+            $response = array(
+                "content" => $this->curlResponse,
+                "status" => $this->curlStatusCode
+            );
+        }
+
+        return $response;
+    }
+
     /* cURL setup and use */
+    public function curlRequest($url){
+        $this->curlHandle = curl_init();
+
+        $this->setCurlOpts($url);
+        $this->setPostOpts();
+
+        $this->curlResponse = curl_exec($this->curlHandle);
+        $this->curlStatusCode = curl_getInfo($this->curlHandle, CURL_HTTP_CODE);
+
+        curl_close($this->curlHandle);
+
+        return array(
+            "content" => $this->curResponse,
+            "status" => $this->curlStatusCode
+        );
+    }
+
+    public function setCurlOpts($url){
+        curl_setopt($this->curlHandle, CURLOPT_URL, $url);
+        curl_setopt($this->curlHandle, CURLOPT_CUSTOMREQUEST, $this->requestMethod);
+        curl_setopt($this->curlHandle, CURLOPT_RETURNTRANSFER, true);
+    }
+
+    public function setPostOpts(){
+        $pattern = "/^P(U|OS)T$/";
+        $content = ($this->body !== "") ? $this->body : $this->prepareArguments();
+
+        if(preg_match($pattern, $this->requestMethod)){
+            curl_setopt($ch, CURLOPT_POSTFIELDS, $content);
+        }
+    }
 
 }
 
