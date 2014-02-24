@@ -11,7 +11,7 @@ via the four primary REST methods:
 - POST
 - PUT
 
-DollarHttp will support custom headers, POST and PUT body contents and a clear, method agnostic API for managing
+DollarHttp supports custom headers, POST and PUT body contents and a clear, method agnostic API for managing
 request arguments.
 
 DollarHttp takes the philosophical stance that an HTTP request abstraction should be:
@@ -38,4 +38,3 @@ Completed items are as follows:
 - [X] Header construction upon executing request
 - [X] HTTP and HTTPS support
 - [ ] Full API documentation
-
