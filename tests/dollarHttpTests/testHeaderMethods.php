@@ -160,6 +160,32 @@ class TestHeaderMethods extends UnitTestCase{
         $this->assertEqual($returnedValue, null);
     }
 
+
+    public function testPrepareHeadersIsCallable(){
+        $isCallable = is_callable(array($this->http, 'prepareHeaders'));
+
+        $this->assertTrue($isCallable);
+    }
+
+    public function testPrepareHeadersReturnsAnArray(){
+        $returnedHeaders = $this->http->prepareHeaders();
+
+        $this->assertTrue(is_array($returnedHeaders));
+    }
+
+    public function testPrepareHeadersReturnsPreparedArrayOfHeaders(){
+        $returnedHeaders = null;
+        $requestHeadersString = "";
+
+        $this->http->setHeader("test1", "test value 1");
+        $this->http->setHeader("test2", "test value 2");
+
+        $requestHeaders = $this->http->prepareHeaders();
+        $requestHeadersString = $requestHeaders[0] . ', ' . $requestHeaders[1];
+
+        $this->assertEqual($requestHeadersString, "test1: test value 1, test2: test value 2");
+    }
+
 }
 
 ?>

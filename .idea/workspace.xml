@@ -4,13 +4,13 @@
     <list default="true" id="f6c98d0f-5254-4f7b-9e31-514cc8af162d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dollarhttp.php" afterPath="$PROJECT_DIR$/src/dollarhttp.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/dollarHttpTests/testArgumentMethods.php" afterPath="$PROJECT_DIR$/tests/dollarHttpTests/testArgumentMethods.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/dollarHttpTests/testHeaderMethods.php" afterPath="$PROJECT_DIR$/tests/dollarHttpTests/testHeaderMethods.php" />
     </list>
     <ignored path="dollarhttp.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="f6c98d0f-5254-4f7b-9e31-514cc8af162d" time="1393101124359" ignored="false" />
-    <file path="/README.md" changelist="f6c98d0f-5254-4f7b-9e31-514cc8af162d" time="1393204785363" ignored="false" />
-    <file path="/dollarhttp.php" changelist="f6c98d0f-5254-4f7b-9e31-514cc8af162d" time="1393204666368" ignored="false" />
+    <file path="/README.md" changelist="f6c98d0f-5254-4f7b-9e31-514cc8af162d" time="1393206301097" ignored="false" />
+    <file path="/dollarhttp.php" changelist="f6c98d0f-5254-4f7b-9e31-514cc8af162d" time="1393206445056" ignored="false" />
     <file path="/dollarHttpTests.php" changelist="f6c98d0f-5254-4f7b-9e31-514cc8af162d" time="1393106423807" ignored="false" />
     <file path="/urltests.php" changelist="f6c98d0f-5254-4f7b-9e31-514cc8af162d" time="1393108111679" ignored="false" />
     <file path="/a.dummy" changelist="f6c98d0f-5254-4f7b-9e31-514cc8af162d" time="1393105897550" ignored="false" />
@@ -20,6 +20,7 @@
     <file path="/a.php" changelist="f6c98d0f-5254-4f7b-9e31-514cc8af162d" time="1393124011978" ignored="false" />
     <file path="/testConstructorBehavior.php" changelist="f6c98d0f-5254-4f7b-9e31-514cc8af162d" time="1393129510111" ignored="false" />
     <file path="/testCurlSetupMethods.php" changelist="f6c98d0f-5254-4f7b-9e31-514cc8af162d" time="1393137830874" ignored="false" />
+    <file path="/testHeaderMethods.php" changelist="f6c98d0f-5254-4f7b-9e31-514cc8af162d" time="1393206255939" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +43,7 @@
       <file leaf-file-name="dollarhttp.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/dollarhttp.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="199" column="28" selection-start="4718" selection-end="4718" vertical-scroll-proportion="-41.875">
+            <state line="245" column="36" selection-start="6069" selection-end="6069" vertical-scroll-proportion="-16.375">
               <folding>
                 <element signature="n#DollarHttp#0;n#DollarHttp#0;n#!!top" expanded="false" />
                 <element signature="e#419#480#0" expanded="false" />
@@ -82,26 +83,64 @@
                 <element signature="e#3454#3543#0" expanded="false" />
                 <element signature="n#deleteHeader#0;n#DollarHttp#0;n#!!top" expanded="false" />
                 <element signature="n#clearHeaders#0;n#DollarHttp#0;n#!!top" expanded="false" />
+                <element signature="n#prepareHeaders#0;n#DollarHttp#0;n#!!top" expanded="false" />
+                <element signature="e#3793#3948#0" expanded="false" />
+                <element signature="e#3833#3938#0" expanded="false" />
                 <element signature="n#getBody#0;n#DollarHttp#0;n#!!top" expanded="false" />
                 <element signature="n#setBody#0;n#DollarHttp#0;n#!!top" expanded="false" />
                 <element signature="n#clearBody#0;n#DollarHttp#0;n#!!top" expanded="false" />
                 <element signature="n#sendRequest#0;n#DollarHttp#0;n#!!top" expanded="false" />
                 <element signature="n#compileUrl#0;n#DollarHttp#0;n#!!top" expanded="false" />
-                <element signature="e#4201#4365#0" expanded="false" />
+                <element signature="e#4477#4641#0" expanded="false" />
                 <element signature="n#getLastRequest#0;n#DollarHttp#0;n#!!top" expanded="false" />
+                <element signature="e#4744#4931#0" expanded="false" />
+                <element signature="e#4800#4920#0" expanded="false" />
                 <element signature="n#curlRequest#0;n#DollarHttp#0;n#!!top" expanded="false" />
+                <element signature="e#5370#5477#0" expanded="false" />
                 <element signature="n#setCurlOpts#0;n#DollarHttp#0;n#!!top" expanded="false" />
                 <element signature="n#setPostOpts#0;n#DollarHttp#0;n#!!top" expanded="false" />
-                <element signature="e#5600#5717#0" expanded="false" />
+                <element signature="e#5908#6025#0" expanded="false" />
+                <element signature="n#setHeaderOpts#0;n#DollarHttp#0;n#!!top" expanded="false" />
+                <element signature="e#6123#6228#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="testHeaderMethods.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tests/dollarHttpTests/testHeaderMethods.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="185" column="42" selection-start="5391" selection-end="5391" vertical-scroll-proportion="0.8192771">
+              <folding>
+                <element signature="n#setUp#0;n#TestHeaderMethods#0;n#!!top" expanded="false" />
+                <element signature="n#testGetHeaderIsCallable#0;n#TestHeaderMethods#0;n#!!top" expanded="false" />
+                <element signature="n#testGetHeaderReturnsCorrectValue#0;n#TestHeaderMethods#0;n#!!top" expanded="false" />
+                <element signature="n#testGetHeaderReturnsNullIfKeyIsNotSet#0;n#TestHeaderMethods#0;n#!!top" expanded="false" />
+                <element signature="n#testSetHeaderIsCallable#0;n#TestHeaderMethods#0;n#!!top" expanded="false" />
+                <element signature="n#testSetHeaderSetsAValueToAKey#0;n#TestHeaderMethods#0;n#!!top" expanded="false" />
+                <element signature="n#testSetHeaderCanSetMoreThanOneKeyValuePair#0;n#TestHeaderMethods#0;n#!!top" expanded="false" />
+                <element signature="n#testSetHeadersIsCallable#0;n#TestHeaderMethods#0;n#!!top" expanded="false" />
+                <element signature="n#testSetHeadersThrowsExceptionWhenHeadersIsNotAnArray#0;n#TestHeaderMethods#0;n#!!top" expanded="false" />
+                <element signature="e#1954#2070#0" expanded="false" />
+                <element signature="e#2010#2070#0" expanded="false" />
+                <element signature="n#testSetHeadersSetsArrayKeyValuePairs#0;n#TestHeaderMethods#0;n#!!top" expanded="false" />
+                <element signature="n#testSetHeadersSetsArrayWithoutDestroyingExistingValues#0;n#TestHeaderMethods#0;n#!!top" expanded="false" />
+                <element signature="n#testDeleteHeaderIsCallable#0;n#TestHeaderMethods#0;n#!!top" expanded="false" />
+                <element signature="n#testDeleteHeaderDoesNotBombWhenAttemptingToDeleteValueNotAvailable#0;n#TestHeaderMethods#0;n#!!top" expanded="false" />
+                <element signature="n#testDeleteHeaderDeletesKeyedRecord#0;n#TestHeaderMethods#0;n#!!top" expanded="false" />
+                <element signature="n#testClearHeadersIsCallable#0;n#TestHeaderMethods#0;n#!!top" expanded="false" />
+                <element signature="n#testClearHeadersCorrectlyClearsHeaderKeyValuePairs#0;n#TestHeaderMethods#0;n#!!top" expanded="false" />
+                <element signature="n#testPrepareHeadersIsCallable#0;n#TestHeaderMethods#0;n#!!top" expanded="false" />
+                <element signature="n#testPrepareHeadersReturnsAnArray#0;n#TestHeaderMethods#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="4" selection-start="1306" selection-end="1306" vertical-scroll-proportion="0.74712646">
+            <state line="37" column="4" selection-start="1306" selection-end="1306" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -130,12 +169,12 @@
         <option value="$PROJECT_DIR$/tests/dollarHttpTests/testUrlMethods.php" />
         <option value="$PROJECT_DIR$/tests/dollarHttpTests/testBodyMethods.php" />
         <option value="$PROJECT_DIR$/tests/dollarHttpTests/dollarHttpTests.php" />
-        <option value="$PROJECT_DIR$/tests/dollarHttpTests/testHeaderMethods.php" />
         <option value="$PROJECT_DIR$/tests/dollarHttpTests/testConstructorBehavior.php" />
         <option value="$PROJECT_DIR$/tests/dollarHttpTests/testArgumentMethods.php" />
         <option value="$PROJECT_DIR$/tests/dollarHttpTests/testCurlSetupMethods.php" />
-        <option value="$PROJECT_DIR$/src/dollarhttp.php" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/dollarhttp.php" />
+        <option value="$PROJECT_DIR$/tests/dollarHttpTests/testHeaderMethods.php" />
       </list>
     </option>
   </component>
@@ -249,18 +288,13 @@
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
   </component>
-  <component name="RunManager" selected="PHP Script.testCurlSetupMethods.php">
+  <component name="RunManager" selected="PHP Script.testHeaderMethods.php">
     <configuration default="false" name="dollarHttpTests.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/tests/dollarHttpTests/dollarHttpTests.php">
       <RunnerSettings RunnerId="PhpRunner" />
       <ConfigurationWrapper RunnerId="PhpRunner" />
       <method />
     </configuration>
     <configuration default="false" name="testArgumentMethods.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/tests/dollarHttpTests/testArgumentMethods.php">
-      <RunnerSettings RunnerId="PhpRunner" />
-      <ConfigurationWrapper RunnerId="PhpRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="testBodyMethods.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/tests/dollarHttpTests/testBodyMethods.php">
       <RunnerSettings RunnerId="PhpRunner" />
       <ConfigurationWrapper RunnerId="PhpRunner" />
       <method />
@@ -275,6 +309,11 @@
       <ConfigurationWrapper RunnerId="PhpRunner" />
       <method />
     </configuration>
+    <configuration default="false" name="testHeaderMethods.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/tests/dollarHttpTests/testHeaderMethods.php">
+      <RunnerSettings RunnerId="PhpRunner" />
+      <ConfigurationWrapper RunnerId="PhpRunner" />
+      <method />
+    </configuration>
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner />
       <method />
@@ -285,17 +324,17 @@
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="PHP Script.dollarHttpTests.php" />
       <item index="1" class="java.lang.String" itemvalue="PHP Script.testArgumentMethods.php" />
-      <item index="2" class="java.lang.String" itemvalue="PHP Script.testBodyMethods.php" />
-      <item index="3" class="java.lang.String" itemvalue="PHP Script.testConstructorBehavior.php" />
-      <item index="4" class="java.lang.String" itemvalue="PHP Script.testCurlSetupMethods.php" />
+      <item index="2" class="java.lang.String" itemvalue="PHP Script.testConstructorBehavior.php" />
+      <item index="3" class="java.lang.String" itemvalue="PHP Script.testCurlSetupMethods.php" />
+      <item index="4" class="java.lang.String" itemvalue="PHP Script.testHeaderMethods.php" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="PHP Script.testCurlSetupMethods.php" />
+        <item index="0" class="java.lang.String" itemvalue="PHP Script.testHeaderMethods.php" />
         <item index="1" class="java.lang.String" itemvalue="PHP Script.dollarHttpTests.php" />
-        <item index="2" class="java.lang.String" itemvalue="PHP Script.testArgumentMethods.php" />
-        <item index="3" class="java.lang.String" itemvalue="PHP Script.testConstructorBehavior.php" />
-        <item index="4" class="java.lang.String" itemvalue="PHP Script.testBodyMethods.php" />
+        <item index="2" class="java.lang.String" itemvalue="PHP Script.testCurlSetupMethods.php" />
+        <item index="3" class="java.lang.String" itemvalue="PHP Script.testArgumentMethods.php" />
+        <item index="4" class="java.lang.String" itemvalue="PHP Script.testConstructorBehavior.php" />
       </list>
     </recent_temporary>
   </component>
@@ -424,30 +463,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/dollarHttpTests/testHeaderMethods.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="86" column="42" selection-start="2311" selection-end="2311" vertical-scroll-proportion="-1.4810127">
-          <folding>
-            <element signature="n#setUp#0;n#TestHeaderMethods#0;n#!!top" expanded="false" />
-            <element signature="n#testGetHeaderIsCallable#0;n#TestHeaderMethods#0;n#!!top" expanded="false" />
-            <element signature="n#testGetHeaderReturnsCorrectValue#0;n#TestHeaderMethods#0;n#!!top" expanded="false" />
-            <element signature="n#testGetHeaderReturnsNullIfKeyIsNotSet#0;n#TestHeaderMethods#0;n#!!top" expanded="false" />
-            <element signature="n#testSetHeaderIsCallable#0;n#TestHeaderMethods#0;n#!!top" expanded="false" />
-            <element signature="n#testSetHeaderSetsAValueToAKey#0;n#TestHeaderMethods#0;n#!!top" expanded="false" />
-            <element signature="n#testSetHeaderCanSetMoreThanOneKeyValuePair#0;n#TestHeaderMethods#0;n#!!top" expanded="false" />
-            <element signature="n#testSetHeadersIsCallable#0;n#TestHeaderMethods#0;n#!!top" expanded="false" />
-            <element signature="n#testSetHeadersThrowsExceptionWhenHeadersIsNotAnArray#0;n#TestHeaderMethods#0;n#!!top" expanded="false" />
-            <element signature="e#1954#2070#0" expanded="false" />
-            <element signature="e#2010#2070#0" expanded="false" />
-            <element signature="n#testDeleteHeaderIsCallable#0;n#TestHeaderMethods#0;n#!!top" expanded="false" />
-            <element signature="n#testDeleteHeaderDoesNotBombWhenAttemptingToDeleteValueNotAvailable#0;n#TestHeaderMethods#0;n#!!top" expanded="false" />
-            <element signature="n#testDeleteHeaderDeletesKeyedRecord#0;n#TestHeaderMethods#0;n#!!top" expanded="false" />
-            <element signature="n#testClearHeadersIsCallable#0;n#TestHeaderMethods#0;n#!!top" expanded="false" />
-            <element signature="n#testClearHeadersCorrectlyClearsHeaderKeyValuePairs#0;n#TestHeaderMethods#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/dollarHttpTests/testConstructorBehavior.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="88" column="93" selection-start="2722" selection-end="2722" vertical-scroll-proportion="0.8212851">
@@ -519,9 +534,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="4" selection-start="1306" selection-end="1306" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/dollarhttp.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="199" column="28" selection-start="4718" selection-end="4718" vertical-scroll-proportion="-41.875">
+        <state line="245" column="36" selection-start="6069" selection-end="6069" vertical-scroll-proportion="-16.375">
           <folding>
             <element signature="n#DollarHttp#0;n#DollarHttp#0;n#!!top" expanded="false" />
             <element signature="e#419#480#0" expanded="false" />
@@ -561,25 +583,54 @@
             <element signature="e#3454#3543#0" expanded="false" />
             <element signature="n#deleteHeader#0;n#DollarHttp#0;n#!!top" expanded="false" />
             <element signature="n#clearHeaders#0;n#DollarHttp#0;n#!!top" expanded="false" />
+            <element signature="n#prepareHeaders#0;n#DollarHttp#0;n#!!top" expanded="false" />
+            <element signature="e#3793#3948#0" expanded="false" />
+            <element signature="e#3833#3938#0" expanded="false" />
             <element signature="n#getBody#0;n#DollarHttp#0;n#!!top" expanded="false" />
             <element signature="n#setBody#0;n#DollarHttp#0;n#!!top" expanded="false" />
             <element signature="n#clearBody#0;n#DollarHttp#0;n#!!top" expanded="false" />
             <element signature="n#sendRequest#0;n#DollarHttp#0;n#!!top" expanded="false" />
             <element signature="n#compileUrl#0;n#DollarHttp#0;n#!!top" expanded="false" />
-            <element signature="e#4201#4365#0" expanded="false" />
+            <element signature="e#4477#4641#0" expanded="false" />
             <element signature="n#getLastRequest#0;n#DollarHttp#0;n#!!top" expanded="false" />
+            <element signature="e#4744#4931#0" expanded="false" />
+            <element signature="e#4800#4920#0" expanded="false" />
             <element signature="n#curlRequest#0;n#DollarHttp#0;n#!!top" expanded="false" />
+            <element signature="e#5370#5477#0" expanded="false" />
             <element signature="n#setCurlOpts#0;n#DollarHttp#0;n#!!top" expanded="false" />
             <element signature="n#setPostOpts#0;n#DollarHttp#0;n#!!top" expanded="false" />
-            <element signature="e#5600#5717#0" expanded="false" />
+            <element signature="e#5908#6025#0" expanded="false" />
+            <element signature="n#setHeaderOpts#0;n#DollarHttp#0;n#!!top" expanded="false" />
+            <element signature="e#6123#6228#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/tests/dollarHttpTests/testHeaderMethods.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="4" selection-start="1306" selection-end="1306" vertical-scroll-proportion="0.74712646">
-          <folding />
+        <state line="185" column="42" selection-start="5391" selection-end="5391" vertical-scroll-proportion="0.8192771">
+          <folding>
+            <element signature="n#setUp#0;n#TestHeaderMethods#0;n#!!top" expanded="false" />
+            <element signature="n#testGetHeaderIsCallable#0;n#TestHeaderMethods#0;n#!!top" expanded="false" />
+            <element signature="n#testGetHeaderReturnsCorrectValue#0;n#TestHeaderMethods#0;n#!!top" expanded="false" />
+            <element signature="n#testGetHeaderReturnsNullIfKeyIsNotSet#0;n#TestHeaderMethods#0;n#!!top" expanded="false" />
+            <element signature="n#testSetHeaderIsCallable#0;n#TestHeaderMethods#0;n#!!top" expanded="false" />
+            <element signature="n#testSetHeaderSetsAValueToAKey#0;n#TestHeaderMethods#0;n#!!top" expanded="false" />
+            <element signature="n#testSetHeaderCanSetMoreThanOneKeyValuePair#0;n#TestHeaderMethods#0;n#!!top" expanded="false" />
+            <element signature="n#testSetHeadersIsCallable#0;n#TestHeaderMethods#0;n#!!top" expanded="false" />
+            <element signature="n#testSetHeadersThrowsExceptionWhenHeadersIsNotAnArray#0;n#TestHeaderMethods#0;n#!!top" expanded="false" />
+            <element signature="e#1954#2070#0" expanded="false" />
+            <element signature="e#2010#2070#0" expanded="false" />
+            <element signature="n#testSetHeadersSetsArrayKeyValuePairs#0;n#TestHeaderMethods#0;n#!!top" expanded="false" />
+            <element signature="n#testSetHeadersSetsArrayWithoutDestroyingExistingValues#0;n#TestHeaderMethods#0;n#!!top" expanded="false" />
+            <element signature="n#testDeleteHeaderIsCallable#0;n#TestHeaderMethods#0;n#!!top" expanded="false" />
+            <element signature="n#testDeleteHeaderDoesNotBombWhenAttemptingToDeleteValueNotAvailable#0;n#TestHeaderMethods#0;n#!!top" expanded="false" />
+            <element signature="n#testDeleteHeaderDeletesKeyedRecord#0;n#TestHeaderMethods#0;n#!!top" expanded="false" />
+            <element signature="n#testClearHeadersIsCallable#0;n#TestHeaderMethods#0;n#!!top" expanded="false" />
+            <element signature="n#testClearHeadersCorrectlyClearsHeaderKeyValuePairs#0;n#TestHeaderMethods#0;n#!!top" expanded="false" />
+            <element signature="n#testPrepareHeadersIsCallable#0;n#TestHeaderMethods#0;n#!!top" expanded="false" />
+            <element signature="n#testPrepareHeadersReturnsAnArray#0;n#TestHeaderMethods#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

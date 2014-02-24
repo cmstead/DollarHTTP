@@ -35,7 +35,7 @@ Completed items are as follows:
 - [X] Custom header management (get, set, delete and clear)
 - [X] Request body management (get, set and clear)
 - [X] Argument construction upon executing request
-- [ ] Header construction upon executing request
+- [X] Header construction upon executing request
 - [ ] HTTP and HTTPS support
 - [ ] Full API documentation
 

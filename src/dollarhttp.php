@@ -152,6 +152,18 @@ class DollarHttp{
         $this->headers = array();
     }
 
+    public function prepareHeaders(){
+        $customHeaders = array();
+
+        if(sizeof($this->headers)){
+            foreach($this->headers as $key=>$value){
+                $customHeaders[] = "$key: $value";
+            }
+        }
+
+        return $customHeaders;
+    }
+
     /* Request body management */
     public function getBody(){
         return $this->body;
@@ -202,6 +214,7 @@ class DollarHttp{
         $this->curlHandle = curl_init();
 
         $this->setCurlOpts($url);
+        $this->setHeaderOpts();
         $this->setPostOpts();
 
         $this->curlResponse = curl_exec($this->curlHandle);
@@ -227,6 +240,14 @@ class DollarHttp{
 
         if(preg_match($pattern, $this->requestMethod)){
             curl_setopt($ch, CURLOPT_POSTFIELDS, $content);
+        }
+    }
+
+    public function setHeaderOpts(){
+        $headers = $this->prepareHeaders();
+
+        if(sizeof($headers)){
+            curl_setopt($this->curlHandle, CURLOPT_HTTPHEADER, $headers);
         }
     }
 
