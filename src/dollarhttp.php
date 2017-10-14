@@ -1,5 +1,6 @@
 <?php
-
+ header("Access-Control-Allow-Origin: *");
+ 
 class DollarHttp{
 
     //Set this if you are going to make HTTPS requests
@@ -222,12 +223,12 @@ class DollarHttp{
         $this->setPostOpts();
 
         $this->curlResponse = curl_exec($this->curlHandle);
-        $this->curlStatusCode = curl_getInfo($this->curlHandle, CURL_HTTP_CODE);
+        $this->curlStatusCode = curl_getInfo($this->curlHandle);
 
         curl_close($this->curlHandle);
 
         return array(
-            "content" => $this->curResponse,
+            "content" => $this->curlResponse,
             "status" => $this->curlStatusCode
         );
     }
