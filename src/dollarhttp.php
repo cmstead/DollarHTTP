@@ -246,7 +246,7 @@ class DollarHttp{
         $content = ($this->body !== "") ? $this->body : $this->prepareArguments();
 
         if(preg_match($pattern, $this->requestMethod)){
-            curl_setopt($ch, CURLOPT_POSTFIELDS, $content);
+            curl_setopt($this->curlHandle, CURLOPT_POSTFIELDS, $content);
         }
     }
 
